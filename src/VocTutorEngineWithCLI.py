@@ -14,7 +14,7 @@ class VocTutorEngineWithCLI(VocTutorEngine):
         self.create_vocab_menu()
 
         if not self.data_file_exists():
-            trials = self.get_num_trials()
+            trials = self.create_num_trials_menu()
             self.set_data_file(num_trials=trials)
         else:
             self.set_data_file()
