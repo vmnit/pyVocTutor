@@ -36,7 +36,7 @@ To generate a test template file, follow these steps:
 3. Run the script with the following command:
 
 ```bash
-python pyVocTutor.py
+python pyVocTutor.py --root_dir <Root directory where data files will be stored>
 ```
 
 
