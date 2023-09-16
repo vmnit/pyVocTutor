@@ -39,7 +39,7 @@ class ConfigManager:
 
     def get_keys_in_section(self, section):
         if self.config.has_section(section):
-            print(self.config.options(section))
+            # print(self.config.options(section))
             return self.config.options(section)
         else:
             print(f"Section {section} not found in config file")

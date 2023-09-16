@@ -1,15 +1,21 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
+import pathlib
+import argparse
 from VocTutor import VocTutor
 
-ROOT_DIR = 'D:\pyVocTutor'
+
+def parse_arg():
+    parser = argparse.ArgumentParser()
+    optional = parser.add_argument_group('Optional arguments')
+    optional.add_argument("-r", "--root_dir", dest="root_dir", required=False, default='D:\\pyVocTutor',
+                          help="Root directory to put config file and data file.",
+                          type=lambda s: pathlib.Path(s).absolute(), )
+    return parser.parse_args()
+
 
 def main():
+    args = parse_arg()
     # create VocTutorWindow object
-    vocTutor = VocTutor(ROOT_DIR)
+    vocTutor = VocTutor(args.root_dir)
     vocTutor.run()
 
 

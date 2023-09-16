@@ -15,7 +15,7 @@ class VocTutorEngine(ABC):
         self.indices = None
         self.data = None
         self._user_dir = None
-        self.config_manager = ConfigManager("D:/pyVocTutor/pyVocTutor.ini")
+        self.config_manager = ConfigManager(os.path.join(root_dir, "pyVocTutor.ini"))
         self._user = None
         self.vocab_file = None
         self.data_file = None
@@ -143,6 +143,10 @@ class VocTutorEngine(ABC):
     def get_num_trials(self, word_idx):
         return self.data.iloc[word_idx]['Trials']
 
-    @abstractmethod
     def run(self):
-        pass
+        while True:
+            idx = self.get_random_word_index()
+            #print(idx)
+            option_indices = self.get_random_options(idx)
+            if not self.create_run_menu(idx, list(option_indices)):
+                break
