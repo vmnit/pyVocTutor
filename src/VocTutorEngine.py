@@ -78,7 +78,7 @@ class VocTutorEngine(ABC):
         self.data.to_csv(self.data_file, index=None)
 
     def create_data_file(self, num_trials):
-        data_file = f"data_{datetime.today().strftime('%Y-%m-%d')}.dat"
+        data_file = f"data_{datetime.today().strftime('%Y_%m_%d_%H%M%S')}.dat"
         data_file_path = os.path.join(self.user_dir, data_file)
         df = pd.read_csv(self.vocab_file)
         df["Trials"] = num_trials
