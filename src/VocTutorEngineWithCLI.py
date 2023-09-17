@@ -93,6 +93,8 @@ class VocTutorEngineWithCLI(VocTutorEngine):
 
     def create_run_menu(self, word_idx, meaning_indices):
         while True:
+            print()
+            print("*" * 50)
             print(f"Meaning of word: {self.data.iloc[word_idx]['Word']}\n")
 
             total_cnt = 0
@@ -124,7 +126,9 @@ class VocTutorEngineWithCLI(VocTutorEngine):
             else:
                 trials_remaining = self.get_num_trials(word_idx)
                 print(f"Your answer is WRONG. You will get following number of chances: {trials_remaining}")
+                print(f"Correct answer is: {self.get_answer(word_idx)}")
 
+            print()
             # TODO: Need to implement get_char to stop for users' keystroke to proceed.
             #  Right now, facing hanging issue.
             #  For now, using input() which will require <Enter> key to be pressed.

@@ -6,8 +6,8 @@ from VocTutorEngineWithCLI import VocTutorEngineWithCLI
 
 class VocTutor:
     def __init__(self, root_dir):
-        self.vocTutor = VocTutorEngineWithCLI(root_dir)
+        self.vocTutorEngine = VocTutorEngineWithCLI(root_dir)
 
     def run(self):
-        self.vocTutor.run()
+        self.vocTutorEngine.run()
         #self.vocTutor.getDataFile()

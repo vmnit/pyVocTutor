@@ -80,7 +80,7 @@ class VocTutorEngine(ABC):
     def create_data_file(self, num_trials):
         data_file = f"data_{datetime.today().strftime('%Y_%m_%d_%H%M%S')}.dat"
         data_file_path = os.path.join(self.user_dir, data_file)
-        df = pd.read_csv(self.vocab_file)
+        df = pd.read_csv(self.vocab_file, names=['Word', 'Meaning'], header=None)
         df["Trials"] = num_trials
         df.to_csv(data_file_path, index=None)
         return data_file_path
@@ -125,6 +125,9 @@ class VocTutorEngine(ABC):
             self.update_data_file()
             return True
         return False
+
+    def get_answer(self, idx):
+        return self.data.at[idx, "Meaning"]
 
     def get_random_options(self, idx):
         indices = set()
