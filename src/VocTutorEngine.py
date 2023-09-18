@@ -6,8 +6,6 @@ from datetime import datetime
 
 from ConfigManager import ConfigManager
 import pandas as pd
-import numpy as np
-import icecream as ic
 
 
 class VocTutorEngine(ABC):
