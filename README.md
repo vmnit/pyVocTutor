@@ -31,7 +31,7 @@ cd pyVocTutor
 ```
 
 ### Usage
-To generate a test template file, follow these steps:
+To run the tool:
 1. Default ROOT_DIR is D:\pyVocTutor, but one can pass your own directory with --root_dir option.
 2. Run the tool with the following command:
 ```bash
@@ -49,7 +49,7 @@ To create the questionare, the tool will create a data file in user's directory 
 Enjoy learning !!!
 
 ## Contributing
-Contributions to the Test Template Generator are welcome! If you encounter any issues or have suggestions for improvements, please submit them in the [issue tracker](https://github.com/vmnit/pyVocTutor/issues).
+Contributions to the the project are welcome! If you encounter any issues or have suggestions for improvements, please submit them in the [issue tracker](https://github.com/vmnit/pyVocTutor/issues).
 Before making a contribution, kindly review the [contribution guidelines](CONTRIBUTING.md) for instructions on how to get started.
 
 ## License
