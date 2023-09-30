@@ -9,7 +9,7 @@ eclectic,selective in choosing from a variety of sources
 eclipse,darken; extinguish; surpass
 ecologist,a person concerned with the interrelationship between living organisms and their environment
 ecstasy,rapture; joy; any overflowing emotion
-eddy,swirling current of water, air, etc.
+eddy,"swirling current of water, air, etc."
 edify,instruct; correct morally
 eerie,weird
 efface,rub out
@@ -34,7 +34,7 @@ elegiacal,like in elegy; mournful
 elicit,draw out by discussion
 elixir,cure-all; something invigorating
 ellipsis,omission of words from a text
-elliptical,oval; ambiguous, either purposely or because key words have been left out
+elliptical,"oval; ambiguous, either purposely or because key words have been left out"
 eloquence,expressiveness; persuasive speech
 elucidate,explain; enlighten
 elusive,evasive; baffling; hard to gasp
@@ -98,7 +98,7 @@ eon,long period of time; an age
 ephemeral,short-lived; fleeting
 epic,long heroic poem or similar work of art
 epicure,connoisseur of food and drink
-epigram,witty thought or saying, usually short
+epigram,"witty thought or saying, usually short"
 epilogue,short speech at conclusion of dramatic work
 episodic,loosely connected
 epitaph,inscription in memory of a dead person
@@ -151,7 +151,7 @@ exculpate,clear from blame
 execrable,very bad
 execrate,curse; express abhorrence for
 execute,put into effect; carry out
-exegesis,explanation, especially of Biblical passages
+exegesis,"explanation, especially of Biblical passages"
 exemplary,serving as a model; outstanding
 exemplify,serve as an example of; embody
 exertion,effort; expenditure of much physical work
@@ -173,7 +173,7 @@ expertise,specialized knowledge; expert skill
 expiate,make amends for (a sin)
 expletive,interjection; profane oath
 explicit,definite; open
-exploit,deed or action, particularly a brave deed
+exploit,"deed or action, particularly a brave deed"
 expository,explanatory; serving to explain
 expunge,cancel; remove
 expurgate,clean; remove offensive parts of a book
@@ -181,7 +181,7 @@ extant,still in existence
 extemporaneous,not planned; impromptu
 extenuate,weaken; mitigate
 extol,praise; glorify
-extort,wring from; get money by threats, etc.
+extort,"wring from; get money by threats, etc."
 extradition,surrender of prisoner by one state to another
 extraneous,not essential; external
 extricate,free; disentangle

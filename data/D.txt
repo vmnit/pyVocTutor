@@ -22,7 +22,7 @@ decant,pour off gently
 decapitate,behead
 decelerate,slow down
 deciduous,falling off as of leaves
-decimate,kill, usually one out of ten
+decimate,"kill, usually one out of ten"
 decipher,interpret secret code
 declivity,downward slope
 décolleté  ,having a low-necked dress
@@ -102,7 +102,7 @@ despicable,contemptible
 despise,scorn
 despoil,plunder
 despondent,depressed; gloomy
-despot,tyrant; harsh, authoritarian ruler
+despot,"tyrant; harsh, authoritarian ruler"
 destitute,extremely poor
 desultory,aimless; jumping around
 detached,emotionally removed; calm and objective; indifferent

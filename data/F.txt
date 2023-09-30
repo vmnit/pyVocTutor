@@ -87,7 +87,7 @@ fluke,unlikely occurrence; stroke of fortune
 fluster,confuse
 fluted,having vertical parallel grooves (as in a pillar)
 flux,flowing; series of changes
-fodder,coarse food for cattle, horses, etc.
+fodder,"coarse food for cattle, horses, etc."
 foible,weakness; slight fault
 foil,contrast
 foil,defeat; frustrate
@@ -112,7 +112,7 @@ fortitude,bravery; courage
 fortuitous,accidental; by chance
 foster,rear; encourage
 founder,fail completely; sink
-founder,person who establishes (an organization, business)
+founder,"person who establishes (an organization, business)"
 fracas,brawl; melee
 fractious,unruly
 frailty,weakness

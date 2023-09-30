@@ -14,35 +14,32 @@ from VocTutorEngine import VocTutorEngine
 class VocTutorEngineWithCLI(VocTutorEngine):
     def __init__(self, root_dir):
         super().__init__(root_dir)
-        self.initializeMenu()
 
-    def initializeMenu(self):
-        self.print_title()
-        self.create_user_menu()
-        self.create_vocab_menu()
-
-        if not self.data_file_exists():
-            trials = self.create_num_trials_menu()
-            self.set_data_file(num_trials=trials)
-        else:
-            self.set_data_file()
-        self.initialize_data()
-
-    def print_title(self):
+    def show_title(self):
         print("*" * (len(self.title) + 4))
         print(f"* {self.title} *")
         print("*" * (len(self.title) + 4))
         print("")
 
-    def create_user_menu(self):
+    def show_user_menu(self):
+        self.show_title()
         users_list = self.get_users()
-        self.user = self.create_menu("user", users_list)
-        print(f"\nYou have entered user: {self.user}")
+        ret_val, self.user = self.show_menu("user", users_list)
+        if not ret_val:
+            return False
 
-    def create_vocab_menu(self):
+        print(f"\nYou have entered user: {self.user}")
+        return True
+
+    def show_datafile_menu(self):
+        self.show_title()
         file_list = self.get_file_options()
-        self.vocab_file = self.create_menu("vocabulary file", file_list)
+        ret_val, self.vocab_file = self.show_menu("vocabulary file", file_list)
+        if not ret_val:
+            return False
+
         print(f"\nThe entered vocabulary file: {self.vocab_file} will be copied over ")
+        return True
 
     def create_num_trials_menu(self):
         while True:
@@ -58,7 +55,7 @@ class VocTutorEngineWithCLI(VocTutorEngine):
 
             return num_trials
 
-    def create_menu(self, type, option_list):
+    def show_menu(self, type, option_list):
         while True:
             if len(option_list):
                 print(f"Select {type} from the given list: ")
@@ -68,11 +65,15 @@ class VocTutorEngineWithCLI(VocTutorEngine):
                 print(f"{total_cnt}. {user}")
                 total_cnt += 1
 
-            print(f"\nPress '0' to add new {type} or 'q' to quit the menu .")
+            print(f"\nPress 'n' to add new {type} or 'e' to exit this menu .")
 
             user_option = input("Enter your option: ")
-            if user_option == 'q':
-                sys.exit(0)
+            if user_option == 'e':
+                return False, ''
+
+            if user_option == 'n':
+                self.is_num_trials_required = True
+                return True, input(f"Enter new {type}: ")
 
             try:
                 opt = int(user_option)
@@ -80,18 +81,15 @@ class VocTutorEngineWithCLI(VocTutorEngine):
                 print(f"Wrong input {user_option}. Try again.\n\n")
                 continue
 
-            if 0 > opt >= total_cnt:
+            if 1 > opt or opt >= total_cnt:
                 print(f"Wrong input {user_option}. Try again.\n\n")
                 continue
 
-            if 1 <= opt < total_cnt:
-                selected_option = option_list[opt - 1]
-                return selected_option
+            selected_option = option_list[opt - 1]
+            return True, selected_option
 
-            self.is_num_trials_required = True
-            return input(f"Enter new {type}: ")
 
-    def create_run_menu(self, word_idx, meaning_indices):
+    def show_question_menu(self, word_idx, meaning_indices):
         while True:
             print()
             print("*" * 50)
@@ -103,7 +101,7 @@ class VocTutorEngineWithCLI(VocTutorEngine):
                 print(f"{total_cnt + 1}. {self.data.iloc[meaning_idx]['Meaning']}")
                 total_cnt += 1
 
-            print("\nPress 'q' to quit the game.")
+            print("\nPress 'q' to exit this game and return to previous menu.")
 
             user_option = input("Enter your option: ")
             if user_option == 'q':
@@ -115,7 +113,7 @@ class VocTutorEngineWithCLI(VocTutorEngine):
                 print(f"Wrong input {user_option}. Try again.\n\n")
                 continue
 
-            if 0 >= opt > len(meaning_indices):
+            if 0 >= opt or opt > len(meaning_indices):
                 print(f"Wrong input {user_option}. Try again.\n\n")
                 continue
 

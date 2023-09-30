@@ -35,7 +35,7 @@ rebuttal,refutation; response with contrary evidence
 recalcitrant,obstinately stubborn
 recant,repudiate; withdraw previous statement
 recapitulate,summarize
-receptive,quick or willing to receive ideas, suggestions, etc.
+receptive,"quick or willing to receive ideas, suggestions, etc."
 recession,withdrawal; retreat
 recidivism,habitual return to crime
 recipient,receiver
@@ -102,7 +102,7 @@ reparation,amends; compensation
 repartee,clever reply
 repellent,driving away; unattractive
 repercussion,rebound; reverberation; reaction
-repertoire,list of works of music, drama, etc., a performer is prepared to present
+repertoire,"list of works of music, drama, etc., a performer is prepared to present"
 repine,fret; complain
 replenish,fill up again
 replete,filled to capacity; abundantly supplied
@@ -138,20 +138,20 @@ responsiveness,state of reacting readily to appeals
 restitution,reparation; indemnification
 restive,unmanageable; fretting under control
 restraint,controlling force
-resurgent,rising again after defeat, etc.
+resurgent,"rising again after defeat, etc."
 resuscitate,revive
 retaliation,repayment in kind (usually for bad treatment)
 retentive,holding; having a good memory
 reticence,reserve; uncommunicativeness; inclination to be silent
 retinue,following; attendants
 retiring,modest; shy
-retort,quick, sharp reply
+retort,"quick, sharp reply"
 retract,withdraw; take back
 retrench,cut down; economize
 retribution,vengeance; compensation; punishment for offenses
 retrieve,recover; find and bring in
 retroactive,of a law which dates back to a period before its enactment
-retrograde,go backwards; degenerate, instead of advancing
+retrograde,"go backwards; degenerate, instead of advancing"
 retrospective,looking back on the past
 revelry,boisterous merrymaking
 reverberate,echo; resound

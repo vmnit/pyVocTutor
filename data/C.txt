@@ -20,7 +20,7 @@ canker,any ulcerous sore; any evil
 canny,shrewd; thrifty
 cant,jargon of thieves; pious phraseology
 cantankerous,ill humored; irritable
-cantata,story set in music, to be sung by a chorus
+cantata,"story set in music, to be sung by a chorus"
 canter,slow gallop
 canto,noun
 canvass,verb
@@ -126,13 +126,13 @@ clairvoyant,fortuneteller
 clamber,climb by crawling
 clamor,noise
 clandestine,secret
-clangor,loud, resounding noise
-clarion,shrill, trumpetlike sound
+clangor,"loud, resounding noise"
+clarion,"shrill, trumpetlike sound"
 claustrophobia,fear of being locked in
 clavicle,collarbone
 cleave,split asunder
 cleft,split
-clemency,disposition to be lenient; mildness, as of the weather
+clemency,"disposition to be lenient; mildness, as of the weather"
 cliché,phrase dulled in meaning by repetition
 clientele,body of customers
 climactic,relating to the highest point
@@ -144,7 +144,7 @@ coagulate,thicken; congeal; clot
 coalesce,combine; fuse
 coddle,to treat gently
 codicil,supplement to the body of a will
-codify,to arrange (laws, rules) as a code; classify
+codify,"to arrange (laws, rules) as a code; classify"
 coercion,use of force to get someone's compliance
 coeval,living as the same time as; contemporary
 cog,tooth protecting from a wheel
@@ -180,10 +180,10 @@ commiserate,to feel or express pity or symphony for
 commodious,spacious and comfortable
 communal,held in common; of a group of people
 compact,agreement; contract
-compact,tightly packed; firm, brief
+compact,"tightly packed; firm, brief"
 compatible,harmonious; in harmony with
-compelling,overpowering, irresistible in effect
-compendium,brief, comprehensive summary
+compelling,"overpowering, irresistible in effect"
+compendium,"brief, comprehensive summary"
 compensatory,making up for; repaying
 compilation,listing of statistical information in tabular or book form
 complacent,self-satisfied
@@ -238,7 +238,7 @@ conjecture,surmise; guess
 conjugal,pertaining to marriage
 conjure,summon a devil; practice magic; imagine; invent
 connivance,pretense of ignorance of something wrong; assistance; permission to offend
-connoisseur,person competent to act as a judge of art, etc.; a lover of an art
+connoisseur,"person competent to act as a judge of art, etc.; a lover of an art"
 connotation,suggested or implied meaning of an expression
 connubial,pertaining to marriage or the matrimonial state
 consanguinity,kinship
@@ -298,7 +298,7 @@ corpulent,very fat
 correlation,mutual relationship
 corroborate,confirm
 corrosive,eating away by chemicals or disease
-corrugated,wrinkled, ridged
+corrugated,"wrinkled, ridged"
 cosmic,pertaining to outer space
 coterie,group that meets socially; select circle
 countenance,approve; tolerate
@@ -310,7 +310,7 @@ courier,messenger
 convenant ,agreement 
 covert,secret; hidden; implied
 covetous,avaricious; eagerly desirous of
-cower,shrink quivering, as from fear
+cower,"shrink quivering, as from fear"
 coy,shy; modest; coquettish
 cozen,cheat; hoodwink; swindle
 crabbed,sour; peevish
@@ -324,12 +324,12 @@ creed,system of religious or ethical belief
 crescendo,increase in the volume or intensity as in a musical passage; climax
 crestfallen,dejected; dispirited
 crevice,crack; fissure
-cringe,shrink back, as if in fear
+cringe,"shrink back, as if in fear"
 criterion,standard used in judging
 crone,hag
 crotchety,eccentric; whimsical
 crux,critical point
-crypt,secret recess or vault, usually used for burial
+crypt,"secret recess or vault, usually used for burial"
 cryptic,mysterious; puzzling; secret
 cubicle,small chamber used for sleeping
 cuisine,style of cooking
@@ -341,8 +341,8 @@ culvert,artificial channel for water
 cumbersome,heavy; hard to manage
 cupidity,greed
 curator,superintendent; manager
-curmudgeon,churlish, miserly individual
-cursive,flowing, running
+curmudgeon,"churlish, miserly individual"
+cursive,"flowing, running"
 cursory,casual; hastily done
 curtail,shorten; reduce
 cynical,skeptical or distrustful of human motives

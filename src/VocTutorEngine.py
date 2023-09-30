@@ -78,7 +78,7 @@ class VocTutorEngine(ABC):
     def create_data_file(self, num_trials):
         data_file = f"data_{datetime.today().strftime('%Y_%m_%d_%H%M%S')}.dat"
         data_file_path = os.path.join(self.user_dir, data_file)
-        df = pd.read_csv(self.vocab_file, names=['Word', 'Meaning'], header=None)
+        df = pd.read_csv(self.vocab_file, names=['Word', 'Meaning'], header=None, encoding='cp1252')
         df["Trials"] = num_trials
         df.to_csv(data_file_path, index=None)
         return data_file_path
@@ -86,16 +86,39 @@ class VocTutorEngine(ABC):
     def initialize_data(self):
         self.data = pd.read_csv(self.data_file)
 
+    def run(self):
+        while True:
+            if not (self.show_user_menu()):
+                break
+
+            while True:
+                if not (self.show_datafile_menu()):
+                    break
+
+                if not self.data_file_exists():
+                    trials = self.create_num_trials_menu()
+                    self.set_data_file(num_trials=trials)
+                else:
+                    self.set_data_file()
+                self.initialize_data()
+
+                while True:
+                    idx = self.get_random_word_index()
+                    # print(idx)
+                    option_indices = self.get_random_options(idx)
+                    if not self.show_question_menu(idx, list(option_indices)):
+                        break
+
     @abstractmethod
-    def create_user_menu(self):
+    def show_user_menu(self):
         pass
 
     @abstractmethod
-    def create_vocab_menu(self):
+    def show_datafile_menu(self):
         pass
 
     @abstractmethod
-    def create_run_menu(self):
+    def show_question_menu(self):
         pass
 
     @abstractmethod
@@ -144,10 +167,3 @@ class VocTutorEngine(ABC):
     def get_num_trials(self, word_idx):
         return self.data.iloc[word_idx]['Trials']
 
-    def run(self):
-        while True:
-            idx = self.get_random_word_index()
-            #print(idx)
-            option_indices = self.get_random_options(idx)
-            if not self.create_run_menu(idx, list(option_indices)):
-                break

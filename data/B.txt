@@ -14,7 +14,7 @@ bandy,discuss lightly; exchange blows or words
 bane,cause of ruin
 baneful,ruinous; poisonous
 bantering,good-natured ridiculing
-barb,sharp projection from fishhook, etc.
+barb,"sharp projection from fishhook, etc."
 blunder,error
 blurt,utter impulsively
 bode,foreshadow; portend
@@ -40,7 +40,7 @@ brindled,tawny or grayish with steaks or spots
 bristling,rising like bristles; showing irritation
 brittle,easy broken; difficult
 broach,open up
-brocade,rich, figured fabric
+brocade,"rich, figured fabric"
 brochure,pamphlet
 brooch,ornamental clasp
 browbeat,bully; intimidate
@@ -75,12 +75,12 @@ beatitude,blessedness; state of bliss
 bedizen,dress with vulgar finery
 bedraggle,wet thoroughly
 befuddle,confuse thoroughly
-beget,father, produce; give raise to
+beget,"father, produce; give raise to"
 begrudge,resent
-beguile,amuse; delude, cheat
+beguile,"amuse; delude, cheat"
 behemoth,huge creature; monstrous animal
 beholden,obligated; indebted
-behoove,be suited to, be incumbent upon
+behoove,"be suited to, be incumbent upon"
 belabor,explain or go over excessively or to a ridiculous degree; attach verbally
 belated,delayed
 beleaguer,besiege
@@ -95,7 +95,7 @@ beneficent,kindly; doing good
 beneficiary,person entitled to benefits or proceeds of an insurance policy or will
 benevolent,generous; charitable
 benign,kindly; favorable; not malignant
-benignity,state of being kind, benign, gracious
+benignity,"state of being kind, benign, gracious"
 benison,blessing
 bent,determined
 bent,natural talent or inclination
@@ -111,7 +111,7 @@ bestow,give
 betroth,become engaged to marry
 bevy,large group
 biased,slanted; prejudiced
-bicameral,two-chambered, as a legislative body
+bicameral,"two-chambered, as a legislative body"
 bicker,quarrel
 biennial,every two years
 bigotry,stubborn intolerance
@@ -121,7 +121,7 @@ billowing,rising or swelling like waves
 bivouac,temporary encampment
 bizarre,fantastic; violently contrasting
 blanch,bleach; whiten
-bland,soothing; mild, dull
+bland,"soothing; mild, dull"
 blandishment,flattery
 blase,bored with pleasure or dissipation
 blasphemy,cursing; irreverence; sacrilege
