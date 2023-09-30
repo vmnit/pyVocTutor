@@ -5,6 +5,7 @@ import os
 class ConfigManager:
     def __init__(self, config_file_path):
         self.config = configparser.ConfigParser(delimiters=('='))
+        self.config.optionxform = str
         self.config_file_path = config_file_path
         self.load_config()
 
